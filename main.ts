@@ -1,17 +1,17 @@
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
-        . # . . .
-        # # # . .
-        . # . . .
-        . # . . .
+        . . . # .
+        . . # # #
+        . . . # .
+        . . . # .
         . # . # .
         `)
     quest_Motors.quest_Set_PowerMotorsViaBlueRedBlackPins_Func(
     quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
-    50,
-    0
+    0,
+    50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(0, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -38,7 +38,7 @@ input.onButtonPressed(Button.AB, function () {
     50,
     50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(0, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -54,18 +54,18 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
-        . . . # .
-        . . # # #
-        . . . # .
-        . . . # .
+        . # . . .
+        # # # . .
+        . # . . .
+        . # . . .
         . # . # .
         `)
     quest_Motors.quest_Set_PowerMotorsViaBlueRedBlackPins_Func(
     quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
-    0,
-    50
+    50,
+    0
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(0, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -89,5 +89,5 @@ quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "©️ 2024 Quest Institute. All rights reserved."
 )
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
-"Ver 2.1 (0.0.3, 24-1108-0540)"
+"Ver 2.1 (0.0.4, 24-1108-0540)"
 )
