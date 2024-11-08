@@ -89,5 +89,5 @@ quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "©️ 2024 Quest Institute. All rights reserved."
 )
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
-"Ver 2.1 (0.0.2, 24-1108-0540)"
+"Ver 2.1 (0.0.3, 24-1108-0540)"
 )
