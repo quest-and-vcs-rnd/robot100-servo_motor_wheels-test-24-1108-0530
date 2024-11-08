@@ -11,7 +11,7 @@ input.onButtonPressed(Button.A, function () {
     0,
     50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(1, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -38,7 +38,7 @@ input.onButtonPressed(Button.AB, function () {
     50,
     50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(1, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -65,7 +65,7 @@ input.onButtonPressed(Button.B, function () {
     50,
     0
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(1, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -79,15 +79,22 @@ input.onButtonPressed(Button.B, function () {
     0
     )
 })
+function Setup_Function () {
+    quest_Note_1.quest_Show_String_For_Note_Small_Func(
+    "Fix 'show leds' Block's Orientation for Driving"
+    )
+    display.rotateTo(display.Direction.UpsideDown)
+}
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
-"2-Sequence Animation Validates New Start"
+"2-Sequence Animation Validates New-Start"
 )
 basic.showIcon(IconNames.Heart)
 quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
 basic.showIcon(IconNames.Happy)
+Setup_Function()
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "©️ 2024 Quest Institute. All rights reserved."
 )
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
-"Ver 2.1 (0.0.4, 24-1108-0540)"
+"Ver 2.1 (0.0.5, 24-1108-0550)"
 )
