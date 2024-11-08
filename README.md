@@ -37,26 +37,6 @@
 <!--- Need following dummy blank line above for this upcoming divider_line to work --->
 
 ---
-# AAA. ___Bonus Add-On Components:___ Connect & Code
-
-# * AAA-1. Data-Dashbaord 
-# ** Connect:
-![](https://github.com/jasonc1025-333/24-0214-0310-rq100-onecode-bot_controller-beginner-final/blob/master/2024-10-01_20-09-20-OledDataDashboard-ConnectTo-MicrobitIoExpansionBoard.png?raw=true)
-# ** Code:
-![](https://github.com/jasonc1025-333/24-0214-0310-rq100-onecode-bot_controller-beginner-final/blob/master/2024-10-03_06-51-58-OledDataDashboard-Coding-02-LineWidth_4px-BlueOpacity_60.png?raw=true)
-<!--- Need following dummy blank line above for this upcoming divider_line to work --->
-
----
-# * BBB-1. ServoArm_Left: Default (degrees)
-# * BBB-2. ServoArm_Left: Up-Max (degrees)
-# * BBB-3. ServoArm_Left: Down-Max (degrees)
-# ** Connect
-![](https://github.com/jasonc1025-333/24-0214-0310-rq100-onecode-bot_controller-beginner-final/blob/master/2024-10-01_19-14-54-ServoArm_Left-ConnectTo-MicrobitIoExpansionBoard.png?raw=true)
-# ** Code
-![](https://github.com/jasonc1025-333/24-0214-0310-rq100-onecode-bot_controller-beginner-final/blob/master/2024-10-03_10-11-44-ServoArm-Coding-02.png?raw=true)
-<!--- Need following dummy blank line above for this upcoming divider_line to work --->
-
----
 # ZZZZ. FOR STAFF USE:
 
 # * ZZZZ-1. Staff: Chrome (Web) Browser ~ One-Time Setup 
