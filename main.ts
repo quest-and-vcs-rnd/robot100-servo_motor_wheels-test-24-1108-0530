@@ -2,7 +2,11 @@ function setup_Staff_ThisLessonOnly_Func () {
 	
 }
 function setup_System_AnyLessonAlways_Func () {
-	
+    quest_Dashboard.quest_Send_LoginOfBot_ToXrayDashboardOfMb_Func(
+    0,
+    quest_Toggle_OnOff_Enum.On,
+    quest_Debug_Show_Enum.Dashboard_OLED
+    )
 }
 function setup_Student_ThisLessonOnly_Func () {
 	
