@@ -1,6 +1,6 @@
 {
     "name": "robot100-servo_motors-test-24-1108-0530",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "",
     "dependencies": {
         "core": "*",
