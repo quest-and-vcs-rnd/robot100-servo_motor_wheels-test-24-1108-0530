@@ -1,8 +1,35 @@
 <!---  ![AltTag](24-0325-2140-Makecode-ClickToCloseSidePanel-2024-03-25_21-40-43.png) --->
 <!--- add suffix '?raw=true' --->
 
-# **** ** Right-Side Panel-Guide ** 
-### [( Right-Side Panel-Guide Separate Web-Page )](https://jasonc1025-333.github.io/24-0214-0310-rq100-onecode-bot_controller-beginner-final/)
+# **** ** Basic Tutorial: Servo-Arm ** 
+* [Zoomable Web-Page of this Basic Tutorial](https://quest-and-vcs-rnd.github.io/robot100-servo_motors-test-24-1108-0530/)
+
+# A. Build
+* ![](https://github.com/quest-and-vcs-rnd/robot-Media-25-0305-2030/blob/main/r100-ServoArm-Build-IMG_3751--25-0305-2000--4xSpeed-480x270.gif?raw=true)
+* [Video WebLink for Above](https://share.descript.com/view/CpAl9AJu3Cl)
+
+# B. Code
+* Download Code to the Left
+
+# C. Test (Calibrate)
+* ![](https://github.com/quest-and-vcs-rnd/robot-Media-25-0305-2030/blob/main/r100-ServoArm-Test-IMG_3750--25-0305-2020--2xSpeed.gif?raw=true)
+* [Video WebLink for Above](https://share.descript.com/view/CpAl9AJu3Cl)
+
+<!--- Need following dummy blank line above for this upcoming divider_line to work --->
+
+--- 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 # A. Coding-Editor Setup:
 ![](https://github.com/jasonc1025-333/24-0214-0310-rq100-onecode-bot_controller-beginner-final/blob/master/2024-10-03_01-20-51-Close-LeftSidePanel-05-Blur20.png?raw=true)
