@@ -79,9 +79,6 @@ input.onButtonPressed(Button.B, function () {
     0
     )
 })
-function setup_For_Teacher_Func () {
-    input.calibrateCompass()
-}
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     if (true) {
         basic.showLeds(`
@@ -195,10 +192,12 @@ basic.showIcon(IconNames.Heart)
 quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
 basic.showIcon(IconNames.Happy)
 quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
-setup_For_Teacher_Func()
-quest_Note_1.quest_Show_String_For_Note_Big_Func(
+quest_Note_1.quest_Show_String_For_Note_Small_Func(
+"Setup Code for Teacher:"
+)
+quest_Note_6.quest_Show_String_For_Note_Small_Func(
 "©️ 2025 Quest Institute. All rights reserved."
 )
-quest_Note_2.quest_Show_String_For_Note_Big_Func(
-"Below: Student can add more Setup Code"
+quest_Note_1.quest_Show_String_For_Note_Small_Func(
+"Setup Code for Student:"
 )
