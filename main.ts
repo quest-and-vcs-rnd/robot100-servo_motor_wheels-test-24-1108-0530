@@ -198,13 +198,13 @@ quest_Note_1.quest_Show_String_For_Note_Big_Func(
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "micro:bit's LED Display is upside-down on bot"
 )
-display.rotateTo(display.Direction.Normal)
+display.rotateTo(display.Direction.UpsideDown)
 quest_Note_1.quest_Show_String_For_Note_Big_Func(
 "Setup Code for Student:"
 )
 basic.forever(function () {
     quest_Note_1.quest_Show_String_For_Note_Small_Func(
-    "Ver 0.4.1: 25-0326-1910"
+    "Ver 0.4.2: 25-0326-2200"
     )
     quest_Note_1.quest_Show_String_For_Note_Small_Func(
     "©️ 2025 Quest Institute. All rights reserved."
