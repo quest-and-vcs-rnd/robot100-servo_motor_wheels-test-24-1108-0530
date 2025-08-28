@@ -11,19 +11,33 @@ input.onButtonPressed(Button.A, function () {
     0,
     50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(1, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    basic.showLeds(`
+        . # . # .
+        . . . # .
+        . . . # .
+        . . # # #
+        . . . # .
+        `)
+    quest_Motors.quest_Set_PowerMotorsViaBlueRedBlackPins_Func(
+    quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
+    0,
+    -50
+    )
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
-        . . . . .
-        . . . . .
         . # . # .
+        . . . . .
+        . . . . .
         `)
     quest_Motors.quest_Set_PowerMotorsViaBlueRedBlackPins_Func(
     quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
     0,
     0
     )
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showLeds(`
@@ -38,19 +52,33 @@ input.onButtonPressed(Button.AB, function () {
     50,
     50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(1, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    basic.showLeds(`
+        . # . # .
+        . # . # .
+        . # . # .
+        # # # # #
+        . # . # .
+        `)
+    quest_Motors.quest_Set_PowerMotorsViaBlueRedBlackPins_Func(
+    quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
+    -50,
+    -50
+    )
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
-        . . . . .
-        . . . . .
         . # . # .
+        . . . . .
+        . . . . .
         `)
     quest_Motors.quest_Set_PowerMotorsViaBlueRedBlackPins_Func(
     quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
     0,
     0
     )
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
@@ -65,19 +93,33 @@ input.onButtonPressed(Button.B, function () {
     50,
     0
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(1, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    basic.showLeds(`
+        . # . # .
+        . # . . .
+        . # . . .
+        # # # . .
+        . # . . .
+        `)
+    quest_Motors.quest_Set_PowerMotorsViaBlueRedBlackPins_Func(
+    quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
+    -50,
+    0
+    )
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
-        . . . . .
-        . . . . .
         . # . # .
+        . . . . .
+        . . . . .
         `)
     quest_Motors.quest_Set_PowerMotorsViaBlueRedBlackPins_Func(
     quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
     0,
     0
     )
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     if (true) {
