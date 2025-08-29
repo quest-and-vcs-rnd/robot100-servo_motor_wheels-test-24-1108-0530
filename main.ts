@@ -11,7 +11,7 @@ input.onButtonPressed(Button.A, function () {
     0,
     50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . # . # .
         . . . # .
@@ -24,7 +24,7 @@ input.onButtonPressed(Button.A, function () {
     0,
     -50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -37,7 +37,7 @@ input.onButtonPressed(Button.A, function () {
     0,
     0
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showLeds(`
@@ -52,7 +52,7 @@ input.onButtonPressed(Button.AB, function () {
     50,
     50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . # . # .
         . # . # .
@@ -65,7 +65,7 @@ input.onButtonPressed(Button.AB, function () {
     -50,
     -50
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -78,7 +78,7 @@ input.onButtonPressed(Button.AB, function () {
     0,
     0
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
@@ -93,7 +93,7 @@ input.onButtonPressed(Button.B, function () {
     50,
     0
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . # . # .
         . # . . .
@@ -106,7 +106,7 @@ input.onButtonPressed(Button.B, function () {
     -50,
     0
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -119,7 +119,7 @@ input.onButtonPressed(Button.B, function () {
     0,
     0
     )
-    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
+    quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     if (true) {

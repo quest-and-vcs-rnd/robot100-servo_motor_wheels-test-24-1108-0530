@@ -6,7 +6,7 @@
 # ** Right-Side-Panel Ed Resource Guide ** 
 <!--- ### [( Educator Resource Guide Separate Web-Page )](https://jasonc1025-333.github.io/24-0214-0310-rq100-onecode-bot_controller-beginner-final/) --->
 <!--- ### [( Educator Resource Guide Separate Web-Page )](https://quest-and-vcs-rnd.github.io/24-0214-0310-rq100-onecode-bot_controller-beginner-final--quest-n-vcs-rnd/) --->
-### [( Educator Resource Guide Separate Web-Page )](https://quest-and-vcs-rnd.github.io/quest-and-vcs-rnd/robot100-servo_motor_wheels-test-24-1108-0530/)
+### [( Educator Resource Guide Separate Web-Page )](https://quest-and-vcs-rnd.github.io/robot100-servo_motor_wheels-test-24-1108-0530/)
 # Table of Contents
 ### ** Basic Test: Servo_Motor_Wheels **
 #### * A. Code Setup
@@ -47,6 +47,8 @@
 
 ---
 # * C. Test/Integrate: Build & Code
+![](https://github.com/quest-and-vcs-rnd/robot100-servo_motor_wheels-test-24-1108-0530/blob/master/2025-08-28_16-35-39-r100-ServoMotorWheels-Test.png?raw=true)
+<!--- Need following dummy blank line above for this upcoming divider_line to work --->
 
-
+---
 # DONE
