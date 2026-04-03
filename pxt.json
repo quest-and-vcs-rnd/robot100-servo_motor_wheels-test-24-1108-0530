@@ -1,6 +1,6 @@
 {
     "name": "robot100-Servo_Motors-Test",
-    "version": "0.5.6",
+    "version": "0.5.7",
     "description": "",
     "dependencies": {
         "core": "*",
